@@ -1,0 +1,13 @@
+create database Sistema_escolar;
+use sistema_escolar;
+
+create table alunos(
+MATRICULA INT UNSIGNED AUTO_INCREMENT NOT NULL PRIMARY KEY,
+NOME VARCHAR (80) NOT NULL,
+SEXO VARCHAR(15) NOT NULL,
+EMAIL VARCHAR(100) NOT NULL,
+ENDERECO VARCHAR(150) NOT NULL,
+TELEFONE VARCHAR(15) NOT NULL,
+SENHA VARCHAR(150) NOT NULL
+)ENGINE=INNODB;
+insert into alunos values (null,'aa','zz','aa','aa','aa','aa')
